@@ -97,15 +97,3 @@ inference method and evaluates:
 - failure under increasing frequency,
 - an architectural intervention using Fourier features.
 
-## Resume title
-
-**Physics-Informed Neural Networks for Dynamical System Identification**
-
-## Resume-ready bullets after running the experiments
-
-- Built a PyTorch PINN using automatic differentiation to solve damped-oscillator dynamics
-  from governing-equation residuals rather than dense solution labels.
-- Formulated an inverse PINN that jointly learns the state trajectory and unknown damping
-  coefficient from sparse noisy observations, enforcing physical parameter constraints.
-- Benchmarked parameter recovery across measurement-noise and oscillation-frequency regimes,
-  and tested Fourier-feature inputs to improve PINN convergence on high-frequency dynamics.
