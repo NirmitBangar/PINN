@@ -1,0 +1,7 @@
+numpy
+matplotlib
+torch
+jupyter
+nbformat
+pytest
+pandas
